@@ -19,9 +19,9 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="55" translatesAutoresizingMaskIntoConstraints="NO" id="VQv-bu-Wic">
                                 <rect key="frame" x="121.5" y="40" width="77" height="341"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RYa-1l-eJ8" userLabel="Green">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RYa-1l-eJ8" userLabel="Red">
                                         <rect key="frame" x="0.0" y="0.0" width="77" height="77"/>
-                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="RYa-1l-eJ8" secondAttribute="height" multiplier="1:1" id="LGj-vo-Dt3"/>
                                         </constraints>
@@ -30,9 +30,9 @@
                                         <rect key="frame" x="0.0" y="132" width="77" height="77"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e6R-aZ-RgI" userLabel="Red">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e6R-aZ-RgI" userLabel="Green">
                                         <rect key="frame" x="0.0" y="264" width="77" height="77"/>
-                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
                                     </view>
                                 </subviews>
                                 <constraints>
@@ -68,8 +68,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="greenLight" destination="RYa-1l-eJ8" id="hhI-4X-oYD"/>
-                        <outlet property="redLight" destination="e6R-aZ-RgI" id="nJI-Xa-j9V"/>
+                        <outlet property="greenLight" destination="e6R-aZ-RgI" id="Nw0-vI-pmU"/>
+                        <outlet property="redLight" destination="RYa-1l-eJ8" id="Umi-1s-Txk"/>
                         <outlet property="startButton" destination="f9m-dM-wUx" id="j36-Tc-UvB"/>
                         <outlet property="yellowLight" destination="wYR-bz-1iX" id="Dja-7L-fHg"/>
                     </connections>
