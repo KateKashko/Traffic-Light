@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,25 +13,25 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Traffic_Light" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="55" translatesAutoresizingMaskIntoConstraints="NO" id="VQv-bu-Wic">
-                                <rect key="frame" x="129.66666666666669" y="98.999999999999972" width="133.66666666666669" height="511.33333333333326"/>
+                                <rect key="frame" x="121.5" y="40" width="77" height="341"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RYa-1l-eJ8" userLabel="Green">
-                                        <rect key="frame" x="0.0" y="0.0" width="133.66666666666666" height="133.66666666666666"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="77" height="77"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="RYa-1l-eJ8" secondAttribute="height" multiplier="1:1" id="LGj-vo-Dt3"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wYR-bz-1iX" userLabel="Yellow">
-                                        <rect key="frame" x="0.0" y="188.66666666666669" width="133.66666666666666" height="133.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="132" width="77" height="77"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e6R-aZ-RgI" userLabel="Red">
-                                        <rect key="frame" x="0.0" y="377.33333333333331" width="133.66666666666666" height="134"/>
+                                        <rect key="frame" x="0.0" y="264" width="77" height="77"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                     </view>
                                 </subviews>
@@ -41,7 +41,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f9m-dM-wUx">
-                                <rect key="frame" x="98.333333333333329" y="729" width="196.33333333333337" height="49"/>
+                                <rect key="frame" x="80" y="488" width="160" height="40"/>
                                 <color key="backgroundColor" systemColor="tintColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="f9m-dM-wUx" secondAttribute="height" multiplier="4:1" id="xIY-TX-byh"/>
